@@ -18,6 +18,8 @@ services:
       xpack.monitoring.enabled: "false"
       xpack.graph.enabled: "false"
       xpack.watcher.enabled: "false"
+      http.host: "0.0.0.0"
+      transport.host: "127.0.0.1"
     networks:
       - es_network
 
